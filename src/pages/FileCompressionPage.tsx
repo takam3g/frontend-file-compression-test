@@ -101,7 +101,8 @@ function FileCompressionPage() {
       <p>
         Compression Streams
         APIが全ブラウザで対応されたので、ライブラリ使わずともできる。
-        ライブラリ使うのであればfflate? -
+        <br />
+        ライブラリ使うのであればfflate? <br />
         fflate推してる記事が多いのと、Pakoはpackageが認識されない問題がある様子...
       </p>
 
@@ -111,7 +112,9 @@ function FileCompressionPage() {
           <a href="https://npm-compare.com/fflate,pako">
             npm compare - pako vs fflate
           </a>
-          feature-richを求めるならPako、軽量で高速なものを求めるのであればfflateとのこと
+          <p>
+            feature-richを求めるならPako、軽量で高速なものを求めるのであればfflateとのこと
+          </p>
         </li>
         <li>
           <a href="https://qiita.com/muson0110/items/9e0ce53e0eeec91b3d54">
